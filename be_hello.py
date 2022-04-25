@@ -11,6 +11,10 @@ def be_hello(my_text):
     for x in input:
         item.append(len(x))
     return item
+"""
+item
+To add to the list that will be printed at the end
+"""
 
 
 print(be_hello("Toto, I've a feeling we're not in Kansas anymore"))
