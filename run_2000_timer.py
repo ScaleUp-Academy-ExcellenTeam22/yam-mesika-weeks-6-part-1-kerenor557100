@@ -4,7 +4,8 @@ import time
 
 def add_loop(num):
     """
-    For 1000 times you will add 0.1 seconds
+    For 1000 times you will add 0.1 seconds.
+    this function is just for testing.
     """
     res = 0
     for i in range(1000):
