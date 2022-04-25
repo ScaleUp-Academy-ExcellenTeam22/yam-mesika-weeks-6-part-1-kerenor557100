@@ -3,6 +3,9 @@ import time
 
 
 def add_loop(num):
+    """
+    For 1000 times you will add 0.1 seconds
+    """
     res = 0
     for i in range(1000):
         time.sleep(0.01)
