@@ -1,7 +1,7 @@
 #submitted by Keren Or Hadad 208025205
 
 
-def get_positive_numbers(input):
+def get_positive_numbers(iter):
     """
 
     :param input: a list of numbers
