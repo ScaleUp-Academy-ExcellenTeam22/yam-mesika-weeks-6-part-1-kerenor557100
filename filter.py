@@ -3,7 +3,7 @@
 
 def filter(func, iter):
     """
-
+    The function receives a filter and iterable function and it performs the function on the iterable. And returns the result
     :param func: a function
     :param iter: Iterative list
     :return: Creates a filter that brings only part of the list according to the operation of the function
