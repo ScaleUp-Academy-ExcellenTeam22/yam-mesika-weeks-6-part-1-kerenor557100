@@ -2,18 +2,18 @@
 from itertools import product
 
 
-def veele_shmot(Fname, Lname, min_length= None):
+def veele_shmot(Firstname, Lastname, min_length= None):
     """
 
-    :param Fname: a list of first names
+    :param Firstname: a list of first names
     :param Lname: qa list of last names
     :param min_length: a minimum length of a full name
     :return: Returns a list of all combinations of first names with last names.
     If a minimum number is given - we will only return the names in the appropriate length and above
     """
-    capitalized_Fname = [word.title() for word in Fname]
-    capitalized_Lname = [word.title() for word in Lname]
-    full_names = [a + " " + b for a, b in product(capitalized_Fname, capitalized_Lname)]
+    capitalized_Fname = [word.title() for word in Firstname]
+    capitalized_Lname = [word.title() for word in Lastname]
+    full_names = [a + " " + b for a, b in product(capitalized_Firstname, capitalized_Lastname)]
     if min_length is not None:
         full_names = [name for name in full_names if len(name) >= min_length]
     return full_names
