@@ -10,8 +10,8 @@ def count_words(my_string):
     my_string = my_string.lower().split()
     sample_dictionary = {}
     for word in my_string:
-        words = len(word)
-        sample_dictionary[words] = word
+        len_words = len(word)
+        sample_dictionary[len_words] = word
     return sample_dictionary
 
 
