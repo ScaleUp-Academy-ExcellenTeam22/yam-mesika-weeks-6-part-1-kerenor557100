@@ -1,6 +1,6 @@
 #submitted by Keren Or Hadad 208025205
 
-def be_hello(input):
+def be_hello(my_text):
     """
      The function receives text and returns to each word (including familiar characters) what its length is
     :param input: a text
