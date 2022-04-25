@@ -2,7 +2,7 @@
 
 def be_hello(input):
     """
-
+     The function receives text and returns to each word (including familiar characters) what its length is
     :param input: a text
     :return: returns a list of the length of the words in the text
     """
