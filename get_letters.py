@@ -4,6 +4,7 @@ def get_letters(): #o_ohel_p_python
     """
 
     :return: all the A-Z and a-z letters
+    Goes through all the letters and first turns them all into uppercase letters and then prints all of the lowercase letters
     """
     lst_tv = [chr(tv_capital) for tv_capital in range(ord('A'), ord('Z')+1)]
     lst_tv.extend([chr(tv) for tv in range(ord('a'), ord('z')+1)])
